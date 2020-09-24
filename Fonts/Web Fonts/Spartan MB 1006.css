@@ -1,0 +1,12 @@
+/* Webfont: SpartanMB-Regular */@font-face {
+    font-family: 'SpartanMB';
+    src: url('Spartan MB 1006.eot'); /* IE9 Compat Modes */
+    src: url('Spartan MB 1006.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Spartan MB 1006.woff') format('woff'), /* Modern Browsers */
+         url('Spartan MB 1006.woff2') format('woff2'), /* Modern Browsers */
+         url('Spartan MB 1006.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
