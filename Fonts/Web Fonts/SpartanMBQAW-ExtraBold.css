@@ -1,0 +1,12 @@
+/* Webfont: SpartanMBQAW-ExtraBold */@font-face {
+    font-family: 'SpartanMBQAWExtBd';
+    src: url('SpartanMBQAW-ExtraBold.eot'); /* IE9 Compat Modes */
+    src: url('SpartanMBQAW-ExtraBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('SpartanMBQAW-ExtraBold.woff') format('woff'), /* Modern Browsers */
+         url('SpartanMBQAW-ExtraBold.woff2') format('woff2'), /* Modern Browsers */
+         url('SpartanMBQAW-ExtraBold.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
