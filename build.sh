@@ -76,8 +76,8 @@ done
 echo "Post processing complete"
 
 # echo "running fb"
-# fontbakery check-googlefonts ./fonts/vf/*.ttf --ghmarkdown MohaveChecks.md 
+# fontbakery check-googlefonts ./fonts/vf/*.ttf --ghmarkdown SpartanChecks.md 
 # echo "finish vf check"
 # echo "show dir now run static fb checks"
-# fontbakery check-googlefonts ./fonts/vf/static/*.ttf --ghmarkdown Mohave_ttf_checks.md
+# fontbakery check-googlefonts ./fonts/vf/static/*.ttf --ghmarkdown SpartanStaticChecks.md
 # echo "fb checks done"
