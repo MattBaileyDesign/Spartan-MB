@@ -1,5 +1,8 @@
 {
-.appVersion = "1352";
+.appVersion = "1357";
+DisplayStrings = (
+"o/imacron o/space oio/space"
+);
 classes = (
 {
 code = "M Q R a j t u";
@@ -20795,103 +20798,96 @@ unicode = 00EC;
 {
 color = 5;
 glyphname = imacron;
-lastChange = "2020-02-27 21:29:52 +0000";
+lastChange = "2022-01-28 14:37:03 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{607, 0}";
+position = "{408, 0}";
 },
 {
 name = ogonek;
-position = "{815, 0}";
+position = "{616, 0}";
 },
 {
 name = top;
-position = "{607, 1528}";
+position = "{408, 1528}";
 }
 );
 components = (
 {
 alignment = -1;
 name = idotless;
-transform = "{1, 0, 0, 1, 242, 0}";
+transform = "{1, 0, 0, 1, 43, 0}";
 },
 {
 alignment = -1;
 name = macron;
-transform = "{1, 0, 0, 1, 199, 0}";
 }
 );
 layerId = "e62399bb-6e96-4ffb-a9ce-09aa31d52a36";
-leftMetricsKey = "=i+75";
-rightMetricsKey = "=i+75";
-width = 1214;
+width = 816;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{663, 0}";
+position = "{421, 0}";
 },
 {
 name = ogonek;
-position = "{759, 0}";
+position = "{517, 0}";
 },
 {
 name = top;
-position = "{662, 1458}";
+position = "{420, 1458}";
 }
 );
 components = (
 {
 alignment = -1;
 name = idotless;
-transform = "{1, 0, 0, 1, 360, 0}";
+transform = "{1, 0, 0, 1, 118, 0}";
 },
 {
 alignment = -1;
 name = macron;
-transform = "{1, 0, 0, 1, 254, 1}";
+transform = "{1, 0, 0, 1, 12, 1}";
 }
 );
 layerId = "b7c3c141-dc0f-46db-926d-e180a8f83e45";
-leftMetricsKey = "=i+75";
-rightMetricsKey = "=i+75";
-width = 1324;
+width = 840;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{722, 0}";
+position = "{408, 0}";
 },
 {
 name = ogonek;
-position = "{750, 0}";
+position = "{436, 0}";
 },
 {
 name = top;
-position = "{722, 1414}";
+position = "{408, 1414}";
 }
 );
 components = (
 {
 alignment = -1;
 name = idotless;
-transform = "{1, 0, 0, 1, 459, 0}";
+transform = "{1, 0, 0, 1, 145, 0}";
 },
 {
 alignment = -1;
 name = macron;
-transform = "{1, 0, 0, 1, 314, 2}";
+transform = "{1, 0, 0, 1, 0, 2}";
 }
 );
 layerId = "ac360476-f880-49b3-af70-f23fb533da3d";
-leftMetricsKey = "=i+100";
-rightMetricsKey = "=i+100";
-width = 1444;
+width = 816;
 }
 );
 unicode = 012B;
