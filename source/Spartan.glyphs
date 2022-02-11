@@ -1,20 +1,5 @@
 {
-.appVersion = "1357";
-DisplayStrings = (
-"o/imacron o/space oio/space \012iit/imacron tiitititiii",
-"nín/space oío\012nin/space oio",
-"nîn/space oîo\012nin/space oio",
-"n/idotaccent nìn/iogonek n",
-"n/lslash n/space o/lslash o/space olo/space nln",
-"llllll/lacute llllll/lcaron lllll",
-"oooo/ohungarumlaut ooossss/scaron ssss",
-"hhhhh/hbar hhhh",
-"iiiiiïiiiii/space oïo/space nïn/space nin/space oio",
-"ø",
-"tttt/tcaron tttt",
-"/sacute/scaron",
-"/Ohungarumlaut"
-);
+.appVersion = "3108";
 classes = (
 {
 code = "M Q R a j t u";
@@ -453,6 +438,22 @@ DivisionSlash
 );
 },
 {
+name = blueScale;
+value = 0.04;
+},
+{
+name = blueShift;
+value = 7;
+},
+{
+name = blueFuzz;
+value = 1;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
 name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
 },
@@ -468,18 +469,6 @@ Name = Weight;
 Tag = wght;
 }
 );
-},
-{
-name = blueScale;
-value = 0.04;
-},
-{
-name = blueShift;
-value = 7;
-},
-{
-name = blueFuzz;
-value = 1;
 }
 );
 date = "2021-01-18 16:18:31 +0000";
@@ -557,11 +546,11 @@ value = -520;
 },
 {
 name = typoLineGap;
-value = 370;
+value = 130;
 },
 {
 name = winAscent;
-value = 1720;
+value = 2398;
 },
 {
 name = winDescent;
@@ -614,6 +603,18 @@ value = 350;
 {
 name = superscriptYSize;
 value = 600;
+},
+{
+name = hheaAscender;
+value = 1720;
+},
+{
+name = hheaDescender;
+value = -520;
+},
+{
+name = hheaLineGap;
+value = 0;
 }
 );
 descender = -520;
@@ -655,11 +656,11 @@ value = -520;
 },
 {
 name = typoLineGap;
-value = 370;
+value = 130;
 },
 {
 name = winAscent;
-value = 1720;
+value = 2398;
 },
 {
 name = winDescent;
@@ -712,6 +713,18 @@ value = 399;
 {
 name = superscriptYSize;
 value = 619;
+},
+{
+name = hheaAscender;
+value = 1720;
+},
+{
+name = hheaDescender;
+value = -520;
+},
+{
+name = hheaLineGap;
+value = 0;
 }
 );
 descender = -520;
@@ -741,11 +754,11 @@ value = -520;
 },
 {
 name = typoLineGap;
-value = 370;
+value = 130;
 },
 {
 name = winAscent;
-value = 1720;
+value = 2398;
 },
 {
 name = winDescent;
@@ -798,6 +811,18 @@ value = 477;
 {
 name = superscriptYSize;
 value = 650;
+},
+{
+name = hheaAscender;
+value = 1720;
+},
+{
+name = hheaDescender;
+value = -520;
+},
+{
+name = hheaLineGap;
+value = 0;
 }
 );
 descender = -520;
@@ -47012,14 +47037,21 @@ unicode = 00A7;
 {
 color = 5;
 glyphname = copyright;
-lastChange = "2020-02-27 21:29:52 +0000";
+lastChange = "2022-02-11 15:11:49 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-alignment = -1;
-name = c;
-transform = "{0.721, 0, 0, 0.721, 541.06, 463.06}";
+name = bottom;
+position = "{949.867, 463.06}";
+},
+{
+name = cedilla;
+position = "{972.939, 463.06}";
+},
+{
+name = top;
+position = "{949.867, 1201.364}";
 }
 );
 hints = (
@@ -47039,6 +47071,20 @@ type = Stem;
 },
 {
 place = "{1549, 260}";
+type = Stem;
+},
+{
+horizontal = 1;
+place = "{439.988, 243.698}";
+type = Stem;
+},
+{
+horizontal = 1;
+place = "{980.738, 243.698}";
+type = Stem;
+},
+{
+place = "{580.715, 317.24}";
 type = Stem;
 }
 );
@@ -47077,16 +47123,54 @@ nodes = (
 "1277 234 OFFCURVE",
 "951 234 CURVE SMOOTH"
 );
+},
+{
+closed = 1;
+nodes = (
+"1103 440 OFFCURVE",
+"1191 470 OFFCURVE",
+"1240 506 CURVE",
+"1142 708 LINE",
+"1119 693 OFFCURVE",
+"1085 684 OFFCURVE",
+"1049 684 CURVE SMOOTH",
+"961 684 OFFCURVE",
+"898 746 OFFCURVE",
+"898 832 CURVE SMOOTH",
+"898 918 OFFCURVE",
+"961 981 OFFCURVE",
+"1049 981 CURVE SMOOTH",
+"1085 981 OFFCURVE",
+"1119 971 OFFCURVE",
+"1142 956 CURVE",
+"1240 1158 LINE",
+"1191 1194 OFFCURVE",
+"1103 1224 OFFCURVE",
+"1002 1224 CURVE SMOOTH",
+"762 1224 OFFCURVE",
+"581 1054 OFFCURVE",
+"581 832 CURVE SMOOTH",
+"581 610 OFFCURVE",
+"762 440 OFFCURVE",
+"1002 440 CURVE SMOOTH"
+);
 }
 );
 width = 1900;
 },
 {
-components = (
+anchors = (
 {
-alignment = -1;
-name = c;
-transform = "{0.881, 0, 0, 0.881, 467.347, 372.707}";
+name = bottom;
+position = "{1008.281, 372.707}";
+},
+{
+name = cedilla;
+position = "{1036.473, 372.707}";
+},
+{
+name = top;
+position = "{1008.281, 1274.851}";
 }
 );
 hints = (
@@ -47106,6 +47190,20 @@ type = Stem;
 },
 {
 place = "{1744, 138}";
+type = Stem;
+},
+{
+horizontal = 1;
+place = "{344.515, 142.722}";
+type = Stem;
+},
+{
+horizontal = 1;
+place = "{1160.321, 142.722}";
+type = Stem;
+},
+{
+place = "{573.948, 177.962}";
 type = Stem;
 }
 );
@@ -47144,16 +47242,54 @@ nodes = (
 "1432 104 OFFCURVE",
 "1037 104 CURVE SMOOTH"
 );
+},
+{
+closed = 1;
+nodes = (
+"1185 345 OFFCURVE",
+"1298 382 OFFCURVE",
+"1372 441 CURVE",
+"1295 548 LINE",
+"1239 508 OFFCURVE",
+"1168 487 OFFCURVE",
+"1090 487 CURVE SMOOTH",
+"886 487 OFFCURVE",
+"752 639 OFFCURVE",
+"752 824 CURVE SMOOTH",
+"752 1009 OFFCURVE",
+"886 1160 OFFCURVE",
+"1090 1160 CURVE SMOOTH",
+"1168 1160 OFFCURVE",
+"1239 1139 OFFCURVE",
+"1295 1100 CURVE",
+"1372 1207 LINE",
+"1298 1265 OFFCURVE",
+"1185 1303 OFFCURVE",
+"1067 1303 CURVE SMOOTH",
+"787 1303 OFFCURVE",
+"574 1091 OFFCURVE",
+"574 824 CURVE SMOOTH",
+"574 557 OFFCURVE",
+"787 345 OFFCURVE",
+"1067 345 CURVE SMOOTH"
+);
 }
 );
 width = 2075;
 },
 {
-components = (
+anchors = (
 {
-alignment = -1;
-name = c;
-transform = "{1, 0, 0, 1, 406, 310}";
+name = bottom;
+position = "{1055, 310}";
+},
+{
+name = cedilla;
+position = "{1087, 310}";
+},
+{
+name = top;
+position = "{1055, 1334}";
 }
 );
 hints = (
@@ -47173,6 +47309,20 @@ type = Stem;
 },
 {
 place = "{1867, 60}";
+type = Stem;
+},
+{
+horizontal = 1;
+place = "{278, 52}";
+type = Stem;
+},
+{
+horizontal = 1;
+place = "{1314, 52}";
+type = Stem;
+},
+{
+place = "{569, 52}";
 type = Stem;
 }
 );
@@ -47210,6 +47360,37 @@ nodes = (
 "1867 369 OFFCURVE",
 "1530 22 OFFCURVE",
 "1091 22 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"1251 278 OFFCURVE",
+"1373 322 OFFCURVE",
+"1469 398 CURVE",
+"1433 436 LINE",
+"1347 366 OFFCURVE",
+"1237 330 OFFCURVE",
+"1116 330 CURVE SMOOTH",
+"826 330 OFFCURVE",
+"621 539 OFFCURVE",
+"621 822 CURVE SMOOTH",
+"621 1108 OFFCURVE",
+"829 1314 OFFCURVE",
+"1115 1314 CURVE SMOOTH",
+"1237 1314 OFFCURVE",
+"1347 1278 OFFCURVE",
+"1435 1208 CURVE",
+"1469 1246 LINE",
+"1375 1322 OFFCURVE",
+"1251 1366 OFFCURVE",
+"1115 1366 CURVE SMOOTH",
+"807 1366 OFFCURVE",
+"569 1142 OFFCURVE",
+"569 822 CURVE SMOOTH",
+"569 504 OFFCURVE",
+"807 278 OFFCURVE",
+"1115 278 CURVE SMOOTH"
 );
 }
 );
